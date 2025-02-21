@@ -6,10 +6,7 @@ import {
 import AmazonS3FileManager from './AmazonS3FileManager.tsx';
 import { ClickEventArgs } from '@syncfusion/ej2-navigations/src/toolbar/toolbar';
 import { DialogUtility } from '@syncfusion/ej2-react-popups';
-import { registerLicense } from '@syncfusion/ej2-base';
- 
-// Register the Syncfusion license
-registerLicense("Ngo9BigBOggjHTQxAR8/V1NMaF1cWWhKYVJ0WmFZfVtgdVRMYl5bQXFPIiBoS35Rc0VhWH5ec3BRRGdcVUF/");
+
 DocumentEditorContainerComponent.Inject(Toolbar);
 
 function DocumentEditor() {
